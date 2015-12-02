@@ -8,7 +8,8 @@
     "react-router": "^1.0.0",
     "reactify": "^1.1.0",
     "material-ui": "^0.13.4",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "jquery.cookie": "^1.4.1"
   },
 
   "license": "MIT",
