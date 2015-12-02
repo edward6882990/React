@@ -1,0 +1,23 @@
+{
+  "name": "B2B2C",
+  "dependencies" : {
+    "requirejs": "^2.1.22",
+    "browserify": "~> 10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "react": "^0.14.0",
+    "react-router": "^1.0.0",
+    "reactify": "^1.1.0",
+    "material-ui": "^0.13.4",
+    "jquery": "^2.1.4"
+  },
+
+  "license": "MIT",
+
+  "engines": {
+    "node": ">= 0.10"
+  },
+
+  "browserify": {
+    "transform": ["reactify"]
+  }
+}

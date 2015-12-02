@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -f ./application.css ];
+then
+  rm ./application.css
+fi
+
+sass ./app/stylesheets/application.scss > ./application.css
+
+echo "compile scss done"

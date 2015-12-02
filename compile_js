@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -f ./application.js ];
+then
+  rm ./application.js
+fi
+
+browserify ./app/javascripts/application.jsx | uglifyjs > ./application.js
+
+echo "compile js done"

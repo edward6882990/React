@@ -1,0 +1,10 @@
+a.nav-btn {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 5px;
+
+  color: white;
+  &:hover {
+    color: yellow;
+  }
+}
