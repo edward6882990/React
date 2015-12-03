@@ -1,10 +1,10 @@
 #!/bin/sh
 
-if [ -f ./application.js ];
+if [ -f ./boot.js ];
 then
-  rm ./application.js
+  rm ./boot.js
 fi
 
-browserify ./app/javascripts/application.jsx | uglifyjs > ./application.js
+browserify ./app/javascripts/boot.jsx | uglifyjs > ./boot.js
 
 echo "compile js done"

@@ -4,16 +4,16 @@ var History     = require('history');
 
 var Link = ReactRouter.Link;
 
-var SignInButton = React.createClass({
+var SignUpButton = React.createClass({
   propTypes: {
     className: React.PropTypes.string
   },
 
   render: function(){
     return (
-      <Link to={'/sign_in'} className={this.props.className + " nav-btn"}>Sign In</Link>
+      <Link to={'/sign_up'} className={this.props.className + " nav-btn"}>Sign Up</Link>
     );
   }
 });
 
-module.exports = SignInButton;
+module.exports = SignUpButton;

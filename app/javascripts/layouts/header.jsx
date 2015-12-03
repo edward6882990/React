@@ -5,11 +5,11 @@ var NavBar = require("./header/nav_bar.jsx");
 var Header = React.createClass({
   render: function(){
     return (
-      <div>
+      <header>
         <span className="header-logo">Fober</span>
         <NavBar />
-      </div>
-    )
+      </header>
+    );
   }
 });
 
